@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="memoryheroeses.menglin9.washington.edu.memoryheroes" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:name=".memoryApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <data android:scheme="1y4fge1qr05amtj"/>
+                <action android:name="andriod.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".MemoryChoice"
+            android:label="@string/title_activity_memory_choice" >
+        </activity>
+        <activity android:name=".DownloadPageActivity"
+
+            ></activity>
+
+        <activity
+            android:name=".Flashcard_Content"
+            android:label="@string/title_activity_flashcard__content" >
+        </activity>
+        <activity
+            android:name=".Check_content"
+            android:label="@string/title_activity_check_content" >
+        </activity>
+
+        <service
+            android:enabled="true"
+            android:name=".DownloadService"
+            >
+        </service>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,138 @@
+[
+    {"app_name":"Memorizing Heroes"
+    },
+
+    { "category":"GRE",
+      "content":[
+
+		{
+          "front":"Bilk(1)",
+          "back":"cheat",
+          "weight":"1"
+        },
+
+		{
+          "front":"Noxious(2)",
+          "back":"harmful",
+          "weight":"2"
+        },
+
+		{
+          "front":"Knotty(3)",
+          "back":"complex",
+          "weight":"3"
+        },
+
+		{
+          "front":"Covert(4)",
+          "back":"transform",
+          "weight":"4"
+        },
+
+		{
+          "front":"Abrogate(5)",
+          "back":"cancel",
+          "weight":"5"
+        }
+      ]
+    },
+
+    { "category":"Toelf!",
+          "content":[
+            {
+              "front":"prohibited",
+              "back":"fobidden",
+              "weight":"0"
+            },
+
+            {
+              "front":"purchase",
+              "back":"buy",
+              "weight":"0"
+            },
+
+            {
+              "front":"abet",
+              "back":"encourage",
+              "weight":"0"
+            },
+
+            {
+              "front":"abridge",
+              "back":"shorten",
+              "weight":"0"
+            },
+
+            {
+              "front":"pursue",
+              "back":"chase",
+              "weight":"0"
+            },
+
+            {
+              "front":"require",
+              "back":"need",
+              "weight":"0"
+            },
+
+            {
+              "front":"respond",
+              "back":"reply",
+              "weight":"0"
+            },
+
+            {
+              "front":"retain",
+              "back":"remember",
+              "weight":"0"
+            },
+
+            {
+              "front":"select",
+              "back":"choose",
+              "weight":"0"
+            },
+
+            {
+              "front":"deplore",
+              "back":"empty",
+              "weight":"0"
+            }
+          ]
+     },
+
+    { "category":"IElTS",
+          "content":[
+            {
+              "front":"symbolise",
+              "back":"represent",
+              "weight":"0"
+            },
+
+            {
+              "front":"crucial",
+              "back":"important",
+              "weight":"0"
+            },
+
+            {
+              "front":"task",
+              "back":"job",
+              "weight":"0"
+            },
+
+            {
+              "front":"obvious",
+              "back":"clear",
+              "weight":"0"
+            },
+
+            {
+              "front":"occur",
+              "back":"happen",
+              "weight":"0"
+            }
+          ]
+    }
+]
+
